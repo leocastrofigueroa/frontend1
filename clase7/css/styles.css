@@ -1,0 +1,120 @@
+.img{
+    background: #e6e6e6;
+}
+.title{
+    background: #c4c4c4;
+    color: #015677;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 29.64px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 84.69%;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    text-align: center;
+    margin-top: 0px;
+    padding: 15px;
+}
+.cajaHeader{
+    color: #ffffff;
+    padding-top: 50px;
+}
+.datos{
+    background: #c4c4c4;
+    color: #015677;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    
+}
+.datos h2{
+    margin-left: 15px;
+}
+.formacion{
+    background: #c4c4c4;
+    color: #015677;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+.formacion h2{
+    margin-left: 15px;
+}
+.experiencia{
+    background: #c4c4c4;
+    color: #015677;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+.experiencia h2{
+    margin-left: 15px;
+}
+span{
+    font-style: italic;
+    font-weight: bold;
+    line-height: 30px;
+}
+.listaFormacion li{
+    list-style: none;
+}
+.secu span{
+    font-style: normal;
+}
+.univ span{
+    font-style: normal;
+    
+}
+ul .univ{
+    padding-bottom: 20px;
+    margin-left: -55px;
+}
+ul .secu{
+    margin-left: -55px;
+}
+.listaExperiencia li{
+    list-style: none;
+}
+.cimesa span{
+    font-style: normal;
+}
+.binser span{
+    font-style: normal;
+    
+}
+ul .binser{
+    padding-bottom: 20px;
+    margin-left: -55px;
+}
+ul .cimesa{
+    margin-left: -55px;
+    margin-bottom: 100px;
+}
+.formato{
+    margin-left: 80px;
+}
+.footer{
+    background: #015677;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+img{
+    margin-top: 15px;
+}
+.img{
+    text-align: center;
+}
