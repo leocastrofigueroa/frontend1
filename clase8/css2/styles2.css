@@ -20,7 +20,7 @@
 }
 .cajaHeader{
     color: #ffffff;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .datos{
     background: #c4c4c4;
@@ -84,20 +84,26 @@ ul .secu{
 .listaExperiencia li{
     list-style: none;
 }
-.cimesa span{
+.cazavillanos span{
     font-style: normal;
 }
-.binser span{
-    font-style: normal;
-    
+.desocupado span{
+    font-style: normal;  
 }
-ul .binser{
+.aprendiz span{
+    font-style: normal;
+}
+ul .desocupado{
     padding-bottom: 20px;
     margin-left: -55px;
 }
-ul .cimesa{
+ul .cazavillanos{
+    padding-bottom: 20px;
     margin-left: -55px;
-    margin-bottom: 100px;
+}
+ul .aprendiz{
+    margin-left: -55px;
+    margin-bottom: 120px;
 }
 .formato{
     margin-left: 80px;
