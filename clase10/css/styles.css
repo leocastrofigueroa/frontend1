@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.container{
+    height: 1024px;
+    width: 1024px;
+    left: 869px;
+    top: -5616px;
+    border-radius: 0px;
+}
+.navBar{
+    position: absolute;
+    width: 1024px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+    background: #1CD1B0;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    width: 111px;
+    height: 18px;
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+}
+.header{
+    position: absolute;
+    width: 1024px;
+    height: 101px;
+    left: 0px;
+    top: 38px;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+h1{
+    width: 128px;
+    height: 47px;
+    position: relative;
+    left: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000;
+}
+.main{
+    position: absolute;
+    width: 960px;
+    height: 530px;
+    left: 32px;
+    top: 292px;
+}
+.cardBatman1{
+    width: 300px;
+    height: 366px;
+    position: relative;
+    left: -10px;
+    top: 185px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.vector1{
+    position: relative;
+    left: 20px;
+    bottom: 150px;
+    z-index: 1;
+}
+.backBatman1{
+    width: 300px;
+    height: 193px;
+    position: relative;
+    top: -193px;
+    border-radius: 16px 16px 0px 0px;
+}
+.photoBatman1{
+    width: 120px;
+    height: 118px;
+    position: relative;
+    left: 92px;
+    bottom: 260px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nameBatman1{
+    width: 122px;
+    height: 35px;
+    position: relative;
+    left: 90px;
+    bottom: 270px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+}
+.textBatman1{
+    width: 267px;
+    height: 113px;
+    position: relative;
+    left: 15px;
+    bottom: 280px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+.button1{
+    position: relative;
+    width: 128.78px;
+    height: 48.52px;
+    left: 80px;
+    bottom: 260px;
+    background: #00669F;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #F3F3F3;
+    outline: none;
+}
+.cardHarley{
+    width: 300px;
+    height: 366px;
+    position: relative;
+    left: 320px;
+    bottom: 180px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.vector3{
+    position: relative;
+    left: 20px;
+    bottom: 150px;
+    z-index: 1;
+}
+.backHarley{
+    width: 300px;
+    height: 193px;
+    position: relative;
+    top: -193px;
+    border-radius: 16px 16px 0px 0px;
+}
+.photoHarley{
+    width: 120px;
+    height: 118px;
+    position: relative;
+    left: 92px;
+    bottom: 260px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nameHarley{
+    width: 222px;
+    height: 35px;
+    position: relative;
+    left: 70px;
+    bottom: 270px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+}
+.textHarley{
+    width: 267px;
+    height: 113px;
+    position: relative;
+    left: 20px;
+    bottom: 280px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+.button3{
+    position: relative;
+    width: 128.78px;
+    height: 48.52px;
+    left: 80px;
+    bottom: 260px;
+    background: #00669F;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #F3F3F3;
+    outline: none;
+}
+.cardBatman2{
+    width: 300px;
+    height: 366px;
+    position: relative;
+    left: 660px;
+    bottom: 547px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.vector2{
+    position: relative;
+    left: 20px;
+    bottom: 150px;
+    z-index: 1;
+}
+.backBatman2{
+    width: 300px;
+    height: 193px;
+    position: relative;
+    top: -193px;
+    border-radius: 16px 16px 0px 0px;
+}
+.photoBatman2{
+    width: 120px;
+    height: 118px;
+    position: relative;
+    left: 92px;
+    bottom: 260px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nameBatman2{
+    width: 122px;
+    height: 35px;
+    position: relative;
+    left: 90px;
+    bottom: 270px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+}
+.textBatman2{
+    width: 267px;
+    height: 113px;
+    position: relative;
+    left: 15px;
+    bottom: 280px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+.button2{
+    position: relative;
+    width: 128.78px;
+    height: 48.52px;
+    left: 80px;
+    bottom: 260px;
+    background: #00669F;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #F3F3F3;
+    outline: none;
+}
+.footer{
+    position: absolute;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 972px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+h3{
+    width: 337px;
+    height: 19px;  
+    padding-left: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFF9F9;
+}
