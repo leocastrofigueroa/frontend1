@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.flex-container{
+    width: 1024px;
+    height: 678px;
+    background: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 1024px;
+    height: 100px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+}
+.logoHeader{
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 234px;
+    height: 80px;
+    align-items: center;
+}
+.navBar{
+    width: 40%;
+    height: 100%;
+}
+.listHeader{
+    height: 100%;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F3F3F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main{
+    width: 1024px;
+    height: 428px;
+    background-color: #F3F3F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1{
+    position: relative;
+    bottom: 26px;
+    width: 491px;
+    height: 350px;
+    border-radius: 5px;
+}
+.titleDelivery{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    z-index: 1;
+    color: #FC200C;
+}
+span{
+    color: #FFFFFF;
+}
+.section2{
+    width: 491px;
+    height: 350px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.titleFalling{
+    font-family: 'Roboto', sans-serif;
+    color: #FC200C;
+    align-self: center;
+    position: relative;
+    top: 20px;
+}
+.pizzaTypes{
+    position: relative;
+    top: 50px;
+    left: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #222222;
+}
+.pizzaList{
+    position: relative;
+    top: 60px;
+    left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #222222;
+}
+main section ol li{
+    line-height: 30px;
+}
+.falling{
+    width: 92px;
+    height: 129px;
+    position: relative;
+    bottom: 115px;
+    left: 350px;
+}
+.footer{
+    width: 1024px;
+    height: 150px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+}
+.listFooter{
+    height: 100%;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.logoFooter{
+    position: relative;
+    top: 30px;
+    right: 40px;
+    width: 234px;
+    height: 80px;
+    
+}
