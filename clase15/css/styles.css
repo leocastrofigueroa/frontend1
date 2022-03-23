@@ -157,6 +157,11 @@ main article :nth-child(3){
     line-height: 29px;
     color: #3C2313;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 input{ 
     width: 340px;
     height: 40px;
@@ -337,5 +342,8 @@ footer .copyright{
     }
     .subscribe div h3{
         font-size: 15px;
+    }
+    .footerLogo{
+        padding-top: 10px;
     }
 }
