@@ -64,6 +64,7 @@ main section div h3{
     background-color: #ffffff;
     margin-right: 20px;
     border-radius: 5px;
+    padding: 10px;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -318,7 +319,7 @@ footer .copyright{
         order: -1;
     }
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:380px){
     .mainImg div h3{
         margin-right: 50px;
         font-size: 20px;
