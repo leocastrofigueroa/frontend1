@@ -285,7 +285,7 @@ footer .copyright{
 .footerMail{
     margin-left: 25px;
 }
-@media screen and (max-width: 999px){
+/* @media screen and (max-width: 999px){
     .footerLogo{
         margin-left: 100px;
     }
@@ -346,4 +346,4 @@ footer .copyright{
     .footerLogo{
         padding-top: 10px;
     }
-}
+} */

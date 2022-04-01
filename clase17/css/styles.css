@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 40vh;
+}
+/* nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin-left: 8px;
+}
+nav ul li:nth-child(3n){
+    background-color: aqua;
+}
+button{
+    border: none;
+    background-color: rgb(69, 69, 177);
+    padding: 15px 25px;
+    margin: 50px;
+    cursor: pointer;
+} */
+/* me modifica el tamaño del boton cuando me posiciono encima de el */
+button:hover{
+    width: 500px;
+    background-color: black;
+    color: white;
+}
+/* me muestras que ese link ya fue visitado */
+a:visited{
+    color: orange;
+}
+/* en la parte interna va a ponerse rojo cuando lo estemos llenando */
+input[type="text"]:focus{
+    border: 5px solid red;
+}
+/* me marca un borde rojo cuando el mail no esta ingresado correctamente */
+input[type="email"]:invalid{
+    border: 5px solid red;
+}
+nav ul{
+    position: relative;
+}
+/* posicionamos un ancla desde Font Awesome como viñeta de la lista, le damos color */
+ul li::before{
+    content: '\f13d';
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    color: orangered;
+    margin-left: 5px;
+}
+/* posicionamos despues de la lista una linea inferior */
+ul li::after{
+    content: '';
+    width: 10px;
+    height: 1px;
+    display: inline-block;
+    background-color: palegreen;
+    position: absolute;
+    top: 17px;
+}

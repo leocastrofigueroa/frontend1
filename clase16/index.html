@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+
+<!-- PARA ENVIAR INFO Y SE VEA EN LA URL -->
+    <form action="views/otrohtml.com" method="get"></form>
+<!-- PARA ENVIAR INFO Y "NO" SE VEA EN LA URL -->
+    <form action="views/otrohtml.com" method="post">
+
+        <div>
+    <!-- UN INPUT CON SU NOMBRE CON PLACEHOLDER(ME DICE COMO TENGO QUE LLENAR EL CAMPO Y MEDIANTE EL REQUIRED(ES QUE ME OBLIGA A LLENAR ESE CAMPO) -->
+            <input type="text" name="name" id="name" placeholder="Nombre" required>
+    <!-- UN INPUT CON SU NOMBRE CON PLACEHOLDER(ME DICE COMO TENGO QUE LLENAR EL CAMPO Y MEDIANTE EL READONLY(SOLO ES DE LECTURA) -->
+            <input type="text" name="name" id="name" placeholder="Nombre" readonly>
+    <!-- UN INPUT CON SU NOMBRE CON PLACEHOLDER(ME DICE COMO TENGO QUE LLENAR EL CAMPO Y MEDIANTE EL DISABLED(NO ME DEJA TOCAR EL CAMPO) -->
+            <input type="text" name="name" id="name" placeholder="Nombre" disabled>
+        </div>
+    
+    <!-- PARA QUE ESTE ASOCIADO EL LABEL CON EL INPUT, EL FOR Y NAME DEL INPUT TIENEN QUE TENER EL MISMO NOMBRE -->
+        <label for="name">Nombre</label>
+        <input type="text" name="name">
+
+        <input type="number" name="edad" min="5" max="75">
+        <input type="email" name="email">
+        <input type="password" name="pass" value="">
+
+
+
+
+    </form>
+
+    
+
+
+</body>
+</html>
