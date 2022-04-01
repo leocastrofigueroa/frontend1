@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Inter:wght@700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --Rojo-brillante: rgb(242, 95, 58);
+    --Azul-oscuro: rgb(35, 44, 81);
+    --Azul-grisáceo-oscuro: rgb(143, 148, 167);
+    --Azul-muy-oscuro: rgb(29, 30, 37);
+    --Rojo-muy-pálido: rgb(255, 239, 234);
+    --Variante-gris-claro: rgb(249, 249, 249);
+}
+.container{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../imagenes/bg-tablet-pattern.svg'), url('../imagenes/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: 130% -14%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 174px;
+}
+header div{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+header div h1{
+    margin-left: 10px;
+    padding-bottom: 6px;
+}
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+header nav ul li{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 13px;
+    color: var(--Azul-oscuro);
+}
+header nav ul li:hover{
+    cursor: pointer;
+    color: var(--Azul-grisáceo-oscuro);
+}
+header nav:nth-of-type(2){
+    display: none;
+    font-size: 30px;
+}
+header button{
+    margin-right: 100px;
+    display: inline-block;
+    height: 44px;
+    padding: 5px 40px;
+    background: var(--Rojo-brillante);
+    border: none;
+    color: var(--Variante-gris-claro);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+main section.home {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+main section.home article:nth-of-type(1){
+    height: 386px;
+    width: 439px;
+    margin-top: 71px;
+}
+main section.home article h2{
+    width: 459px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 66px;
+    letter-spacing: -0.035em;
+    color: var(--Azul-oscuro);
+    margin-bottom: 28px;
+}
+main section.home article p{
+    width: 350px;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--Azul-grisáceo-oscuro);
+    margin-bottom: 28px;
+}
+main section.home article:nth-of-type(2){
+    height: 525px;
+    width: 580px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+main section.home article button{
+    height: 44px;
+    padding: 5px 40px;
+    background: var(--Rojo-brillante);
+    border: none;
+    color: var(--Variante-gris-claro);
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border-radius: 50px;
+}
+main section.home article:nth-of-type(1) img{
+    display: none;
+}
+main section.aboutUs{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../imagenes/bg-tablet-pattern.svg'), url('../imagenes/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: -90% -50%;
+    margin-top: 120px;
+}
+main section.aboutUs article:nth-of-type(1){
+    padding-left: 100px;
+    height: 212px;
+}
+main section.aboutUs article:nth-of-type(1) h3{
+    font-size: 36px;
+    color: var(--Azul-oscuro);
+    width: 433px;
+    margin-bottom: 36px;
+}
+main section.aboutUs article:nth-of-type(1) p{
+    line-height: 30px;
+    font-size: 16px;
+    color: var(--Azul-grisáceo-oscuro);
+    width: 337px;
+}
+main section.aboutUs article:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+main section.aboutUs article:nth-of-type(2) div{
+    display: flex;
+    flex-direction: column;
+}
+main section.aboutUs article:nth-of-type(2) div div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+main section.aboutUs article:nth-of-type(2) div div button{
+    margin-right: 20px;
+}
+main section.aboutUs article:nth-of-type(2) div p{
+    margin-left: 90px;
+    margin-bottom: 42px;
+}
+main section.aboutUs article:nth-of-type(2) div:nth-of-type(1) p{
+    width: 437px;
+}
+main section.aboutUs article:nth-of-type(2) div:nth-of-type(2) p{
+    width: 458px;
+}
+main section.aboutUs article:nth-of-type(2) div:nth-of-type(3) p{
+    width: 423px;
+}
+main section.aboutUs article:nth-of-type(2) div button{
+    width: 69px;
+    height: 43px;
+    background: var(--Rojo-brillante);
+    border-radius: 30px;
+    border: none;
+    color: var(--Variante-gris-claro);
+}
+main section.aboutUs article:nth-of-type(2) div p{
+    font-size: 16px;
+    color: var(--Azul-grisáceo-oscuro);
+    word-spacing: 1px;
+    line-height: 30px;
+}
+main section.testimony{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 553px;
+    margin: 130px 0 180px 0;
+}
+main section.testimony h3{
+    font-size: 39px;
+    letter-spacing: 2px;
+    color: var(--Azul-oscuro);
+    margin-bottom: 109px;
+}
+main section.testimony div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+main section.testimony div article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    background: var(--Variante-gris-claro);
+}
+main section.testimony div article:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+main section.testimony div article img{
+    position: relative;
+    bottom: 40px;
+}
+main section.testimony div article p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    color: var(--Azul-grisáceo-oscuro);
+    margin: 21px 21px 38px 21px;
+}
+main section.testimony div article:nth-of-type(3) p{
+    margin-right: 0;
+}
+main section.testimony button{
+    height: 44px;
+    padding: 5px 40px;
+    background: var(--Rojo-brillante);
+    border: none;
+    color: var(--Variante-gris-claro);
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border-radius: 50px;
+}
+main section.words{
+    background-color: var(--Rojo-brillante);
+    display: flex;
+    align-items: center;
+    color: var(--Variante-gris-claro);
+    height: 224px;
+}
+main section.words{
+    background-repeat: no-repeat;
+    background-position: 15% 0%;
+    background-size: 30%;
+}
+main section.words div{
+    width: 50%;
+}
+main section.words h3{
+    font-size: 40px;
+    padding-left: 100px;
+    z-index: 1;
+    padding-right: 100px;
+}
+main section.words div{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+main section.words div h3{
+    z-index: 1;
+}
+main section.words div img{
+    opacity: 0.05;
+    width: 70%;
+    position: absolute;
+    top: -80px;
+    left: 130px;
+}
+main section.words div:nth-of-type(2) img{
+    position: absolute;
+    top: -450px;
+    left: 560px;
+}
+main section.words button{
+    height: 44px;
+    padding: 5px 40px;
+    color: var(--Rojo-brillante);
+    border: none;
+    background-color: var(--Variante-gris-claro);
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border-radius: 50px;
+    margin-right: 100px;
+}
+footer{
+    background-color: var(--Azul-muy-oscuro);
+    display: flex;
+    justify-content: space-around;
+    height: 247px;
+    z-index: 1;
+}
+footer div{
+    height: 141px;
+}
+footer div.first img.logo{
+    margin-bottom: 66px;
+}
+footer div.first{
+    margin-top: 67px;
+    display: flex;
+    flex-direction: column;
+}
+footer div.first div{
+    height: 115px;
+}
+footer div.first{
+    width: 168px;
+}
+footer div.first div a{
+    margin-right: 10px;
+}
+footer div.first div a img:hover{
+    cursor: pointer;
+    background: var(--Rojo-brillante);
+    transform: translateY(-10px);
+}
+footer div.second{
+    display: flex;
+    justify-content: space-between;
+    color: var(--Variante-gris-claro);
+    font-size: 16px;
+    width: 393px;
+    margin-top: 52px;
+}
+footer div.third{
+    width: 273px;
+    margin-top: 56px;
+}
+footer div.second li{
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+footer div.second li:hover{
+    cursor: pointer;
+    color: var(--Rojo-brillante);
+}
+footer div.third div form input{
+    padding: 10px;
+    width: 201px;
+    height: 44px;
+    background: var(--Variante-gris-claro);
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 10px;
+}
+::placeholder{
+    color: var(--Azul-grisáceo-oscuro);
+}
+footer div.third div form div{
+    height: 45px;
+}
+footer div.third div form span{
+    border: var(--Rojo-muy-pálido);
+    color: var(--Rojo-brillante);
+}
+footer div.third form button{
+    padding: 10px;
+    width: 63px;
+    height: 42px;
+    background: var(--Rojo-brillante);
+    border-radius: 50px;
+    color: var(--Variante-gris-claro);
+    border: none;
+    margin-left: 5px;
+}
+footer div.third p{
+    margin-left: 60px;
+    color: var(--Azul-grisáceo-oscuro);
+    font-size: 12px;
+}
+footer p.mobile{
+    display: none;
+}
+div.container button:hover{
+    cursor: pointer;
+    background: var(--Rojo-muy-pálido);
+    color: var(--Rojo-brillante);
+    transform: translateY(10px);
+}
+@media screen and (max-width: 895px){
+    header div, main section.home, main section.aboutUs article:nth-of-type(1){
+        padding-left: 0;
+    }
+    main section.home article:nth-of-type(1) button{
+        margin-left: 32%;
+    }
+    main section.home article:nth-of-type(2){
+        order: -1;
+    }
+    header button, main section.home article:nth-of-type(2), main section.aboutUs article:nth-of-type(2){
+        margin-right: 0;
+    }
+    main section.home{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    main section.aboutUs{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    main section.testimony{
+        margin: 80px 0;
+    }
+    main section.testimony div{
+        margin-bottom: 0;
+    }
+    main section.aboutUs article:nth-of-type(1){
+        margin-bottom: 60px;
+    }
+    main section.words div h3{
+        font-size: 25px;
+    }
+    footer div.first div a{
+        margin-right: 3px;
+    }
+}
+@media screen and (max-width: 665px){
+    header nav ul, header button{
+        display: none;
+    }
+    header{
+        justify-content: space-around;
+    }
+    header nav:nth-of-type(2){
+        display: block;
+    }
+    main section.home article:nth-of-type(2){
+        height: auto;
+    }
+    main section.aboutUs article:nth-of-type(2) div div{
+        background-color: var(--Rojo-muy-pálido);
+    }
+    main section.testimony{
+        height: auto;
+        margin-bottom: 50px;
+    }
+    main section.testimony div article:nth-of-type(1), main section.testimony div article:nth-of-type(3){
+        display: none;
+    }
+    main section.testimony button{
+        margin-top: 20px;
+    }
+    main section.words div:nth-of-type(2) img{
+        display: none;
+    }
+}
+@media screen and (max-width: 550px) {
+   main section.words{
+       flex-direction: column;
+       height: auto;
+   }
+   main section.words div{
+       width: 100%;
+   }
+   main section.words div:nth-of-type(1) h3{
+        font-size: 35px;
+        width: 100%;
+        padding: 60px 120px 20px;
+        text-align: center;
+   }
+   main section.words div:nth-of-type(2) button{
+       margin-right: 38%;
+       margin-bottom: 70px;
+   }
+   footer{
+       flex-direction: column;
+       height: auto;
+       align-items: center;
+   }
+   footer div.third{
+       order: -1;
+       height: 100px;
+       width: 100%;
+   }
+   footer div.third div form{
+       height: 70px;
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+       padding: 0 50px;
+       gap: 10px;
+   }
+   footer div.third div form div{
+       height: 45px;
+   }
+   footer div.third div form input{
+       flex-grow: 2;
+   }
+   footer div.third div form button{
+       flex-grow: .5;
+   }
+   footer div.first{
+       order: 1;
+       margin-top: 0;
+       width: 100%;
+   }
+   footer div.first img{
+       width: 40%;
+       margin-left: 30%;
+       margin-bottom: 20px;
+   }
+   footer div.first div.social{
+       order: -1;
+       margin-bottom: 50px;
+       display: flex;
+       justify-content: space-evenly;
+    }
+    footer div.first div a img{
+        width: 40px;
+        height: 40px;
+   }
+   footer div.second{
+       height: auto;
+       margin-top: 0;
+       margin-bottom: 20px;
+   }
+   footer div.third p{
+        display: none;
+   }
+   footer p.mobile{
+        display: block;
+        order: 2;
+        color: var(--Azul-grisáceo-oscuro);
+        font-size: 14px;
+        margin: 80px 0;
+   }
+@media screen and (max-width: 375px) {
+    main section.home article:nth-of-type(2) img{
+        width: 90%;
+        margin-left: 30px;
+    }
+    main section.home article:nth-of-type(1){
+        width: auto;
+    }
+    main section.home article:nth-of-type(1) h2{
+        text-align: center;
+        font-size: 43px;
+        padding-right: 10px;
+    }
+    main section.home article:nth-of-type(1) p{
+        margin-left: 12%;
+        text-align: center;
+        font-size: 18px;
+    }
+    main section.aboutUs article:nth-of-type(1) h3{
+        width: auto;
+        text-align: center;
+    }
+    main section.aboutUs article:nth-of-type(1) p{
+        width: auto;
+        text-align: center;
+        margin: 0 20px;
+    }
+    main section.aboutUs article:nth-of-type(2){
+        width: 100%;
+    }
+    main section.aboutUs article:nth-of-type(2) div:nth-of-type(1) p{
+        margin-left: 0;
+        width: 100%;
+        padding: 10px 10px 0;
+    }
+    main section.aboutUs article:nth-of-type(2) div:nth-of-type(2) p{
+        margin-left: 0;
+        width: 100%;
+        padding: 10px 10px 0;
+    }
+    main section.aboutUs article:nth-of-type(2) div:nth-of-type(3) p{
+        margin-left: 0;
+        width: 100%;
+        padding: 10px 10px 0;
+    }
+    main section.testimony h3{
+        font-size: 30px;
+        text-align: center;
+    }
+    main section.testimony div article{
+        margin-left: 20px;
+    }
+    main section.words div:nth-of-type(1) h3{
+        padding: 60px 40px 20px;
+    }
+    main section.words div:nth-of-type(2) button{
+        margin: 0 120px 60px 0;
+    }
+    footer div.second{
+        justify-content: space-evenly;
+    }
+    .container{
+        background-position: 50px -50px;
+        background-size: 120%;
+    }
+    main section.home article:nth-of-type(1){
+        position: relative;
+    }
+    main section.home article:nth-of-type(1) img{
+        display: block;
+        width: 300px;
+        position: absolute;
+        left: 280px;
+        top: 170px;
+        z-index: -1;
+    }
+    main section.words div img{
+        width: 120%;
+        position: absolute;
+        top: 30px;
+        left: -350px;
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
